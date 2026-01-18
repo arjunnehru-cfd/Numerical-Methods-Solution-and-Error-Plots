@@ -1,0 +1,65 @@
+T = 1
+
+
+100
+ Completed         111 time steps. Final time =   1.000000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS  **********  **********  **********
+    Upwind    0.038930    0.042986    0.060256
+Lax-Friedr    0.045726    0.050477    0.070931
+Lax-Wendro    0.036414    0.040212    0.056303
+
+
+400
+ Completed         444 time steps. Final time =   1.000000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS         NaN         NaN    0.000000
+    Upwind    0.006810    0.007553    0.010660
+Lax-Friedr    0.008992    0.009972    0.014087
+Lax-Wendro    0.006007    0.006662    0.009399
+
+
+1600
+ Completed        1777 time steps. Final time =   1.000000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS         NaN         NaN    0.000000
+    Upwind    0.001087    0.001207    0.001707
+Lax-Friedr    0.001820    0.002020    0.002854
+Lax-Wendro    0.000745    0.000828    0.001176
+
+
+T = 100
+
+
+100
+ Completed       10999 time steps. Final time =   100.0000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS         NaN         NaN    0.000000
+    Upwind    0.549934    0.610804    0.863744
+Lax-Friedr    0.627151    0.696611    0.985056
+Lax-Wendro    0.088531    0.097764    0.136897
+
+
+400
+ Completed       44320 time steps. Final time =   100.0000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS         NaN         NaN    0.000000
+    Upwind    0.265430    0.294560    0.416493
+Lax-Friedr    0.418167    0.464304    0.656609
+Lax-Wendro    0.123745    0.137251    0.193625
+
+
+1600
+ Completed      177314 time steps. Final time =   100.0000    
+ Scheme      L1 Error     L2 Error     Linf Error
+ --------------------------------------------
+      FTCS         NaN         NaN    0.000000
+    Upwind    0.703501    0.781083    1.104185
+Lax-Friedr    0.669302    0.743105    1.050518
+Lax-Wendro    0.744475    0.826709    1.169055
+
